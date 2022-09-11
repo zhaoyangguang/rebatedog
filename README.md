@@ -41,3 +41,5 @@ docker run -dit \
 注意：所有平台返利狗的配置文件数据文件都在运行目录下的
 /data
 文件夹里面，请保存备份好你的数据，丢失概不负责！
+
+其他使用文档请访问https://www.yuque.com/sunnysoft/
