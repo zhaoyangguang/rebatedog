@@ -50,6 +50,7 @@ __[旺财狗官方教程网站](http://wcg.ymette.com)__
 在DockerHub中的名字：zhaoyangguang/rebatedog  
 1，先拉镜像  
 docker pull zhaoyangguang/rebatedog:latest  
+备用国内加速地址： docker pull crpi-5mft5k2asrq5fkut.cn-hangzhou.personal.cr.aliyuncs.com/zhaoyangguang/rebatedog:latest
 2，创建容器并运行，注意下面的$PWD/data是你的本机目录，将主机当前目录下的data目录挂载到容器的/app/data目录  
 docker run -dit \  
   -v $PWD/data:/app/data  \  
